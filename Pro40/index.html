@@ -1,0 +1,41 @@
+<!DOCTYPE html><html lang="en"><head>
+    <script src="libraries/p5.js"></script>
+    <script src="libraries/p5.dom.min.js"></script>
+    <script src="libraries/p5.sound.min.js"></script>
+    <script src="libraries/matter.js"></script>
+    <script src="libraries/p5.play.js"></script>
+    <script type="module">
+      // Import the functions you need from the SDKs you need
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-app.js";
+      import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.0/firebase-database.js";
+      // TODO: Add SDKs for Firebase products that you want to use
+      // https://firebase.google.com/docs/web/setup#available-libraries
+    
+      // Your web app's Firebase configuration
+      const firebaseConfig = {
+        apiKey: "AIzaSyB2MsDz62NLIgCAJFwbkAVY0cFvafxRUCI",
+        authDomain: "multiplayer-car-g.firebaseapp.com",
+        databaseURL: "https://multiplayer-car-g-default-rtdb.firebaseio.com",
+        projectId: "multiplayer-car-g",
+        storageBucket: "multiplayer-car-g.appspot.com",
+        messagingSenderId: "362395358593",
+        appId: "1:362395358593:web:6623261bafe9ceb8d58480"
+      };
+    
+      // Initialize Firebase
+      const app = initializeApp(firebaseConfig);
+    </script>
+    <!--Add Your JS files here -->
+    <script src="js/player.js"></script>
+    <script src="js/form.js"></script>
+    <script src="js/game.js"></script>
+    <script src="sketch.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+
+  </head>
+  <body>
+    <script src="sketch.js"></script>
+  
+
+</body></html>
